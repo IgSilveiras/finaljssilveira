@@ -1,0 +1,26 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    height: 10vh;
+}
+
+header nav {
+    height: 10vh;
+}
+
+header nav img {
+    height: 10vh;
+    transition: 0.4s;
+}
+
+header nav img:hover {
+    height: 11vh;
+}
+
+/* Main */
