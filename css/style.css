@@ -8,7 +8,7 @@
 /* Header */
 header {
     height: 12vh;
-    width: 98.75vw;
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -155,7 +155,7 @@ h2 {
     text-align: end;
 }
 
-#cart-add-btn {
+.cart-add-btn {
     grid-area: add;
     justify-self: center;
     align-self: flex-end;
@@ -167,6 +167,42 @@ h2 {
     transition: background-color 0.15s;
 }
 
-#cart-add-btn:hover {
+.cart-add-btn:hover {
     background-color: #696e74;
+}
+
+
+/* Carrito */
+
+.card-title {
+    font-size: 22px;
+}
+
+.card-text {
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.subTotalSpan {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.eraseBtn {
+    width: 25px;
+    height: 25px;
+    
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin: 0 3px 0 3px;
+    
+    font-size: 14px;
+    background-color: #e74c3c;
+    
+    border: none;
+    border-radius: 3px;
+}
+
+.a {
+    background-color: #d34f1b, #bd7728
 }
