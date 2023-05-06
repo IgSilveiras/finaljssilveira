@@ -66,7 +66,7 @@ function renderServices(servicesArray) {
 }
 
 // Traer datos
-fetch("../data/data.json")
+fetch("./data/data.json")
 .then((response) => response.json())
 .then((data) => {
     guardarEnArray(data);
