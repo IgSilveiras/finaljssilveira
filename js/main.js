@@ -354,4 +354,4 @@ clearCartBtn.addEventListener("click", () => {
 // Timeout para que se muestren los productos despues de hacer el fetch
 setTimeout(() => {
     renderServices(arrayProductos)
-}, 200);
+}, 2000);
